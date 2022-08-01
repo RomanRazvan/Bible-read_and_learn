@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="GENEZA"
+                android:textColor="#000000"
+                android:textSize="36sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/geneza_1"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1" />
+
+                    <Button
+                        android:id="@+id/geneza_2"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="2" />
+
+                    <Button
+                        android:id="@+id/geneza_3"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="3" />
+
+                    <Button
+                        android:id="@+id/geneza_4"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="4" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/geneza_5"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="5" />
+
+                    <Button
+                        android:id="@+id/geneza_6"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="6" />
+
+                    <Button
+                        android:id="@+id/geneza_7"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="7" />
+
+                    <Button
+                        android:id="@+id/geneza_8"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="8" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/geneza_9"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9" />
+
+                    <Button
+                        android:id="@+id/geneza_10"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="10" />
+
+                    <Button
+                        android:id="@+id/geneza_11"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="11" />
+
+                    <Button
+                        android:id="@+id/geneza_12"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="12" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/geneza_13"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="13" />
+
+                    <Button
+                        android:id="@+id/geneza_14"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="14" />
+
+                    <Button
+                        android:id="@+id/geneza_15"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="15" />
+
+                    <Button
+                        android:id="@+id/geneza_16"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="16" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/geneza_17"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="17" />
+
+                    <Button
+                        android:id="@+id/geneza_18"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="18" />
+
+                    <Button
+                        android:id="@+id/geneza_19"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="19" />
+
+                    <Button
+                        android:id="@+id/geneza_20"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="20" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/geneza_21"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="21" />
+
+                    <Button
+                        android:id="@+id/geneza_22"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="22" />
+
+                    <Button
+                        android:id="@+id/geneza_23"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="23" />
+
+                    <Button
+                        android:id="@+id/geneza_24"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="24" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/geneza_25"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="25" />
+
+                    <Button
+                        android:id="@+id/geneza_26"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="26" />
+
+                    <Button
+                        android:id="@+id/geneza_27"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="27" />
+
+                    <Button
+                        android:id="@+id/geneza_28"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="28" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/geneza_29"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="29" />
+
+                    <Button
+                        android:id="@+id/geneza_30"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="30" />
+
+                    <Button
+                        android:id="@+id/geneza_31"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="31" />
+
+                    <Button
+                        android:id="@+id/geneza_32"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="32" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/geneza_33"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="33" />
+
+                    <Button
+                        android:id="@+id/geneza_34"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="34" />
+
+                    <Button
+                        android:id="@+id/geneza_35"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="35" />
+
+                    <Button
+                        android:id="@+id/geneza_36"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="36" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/geneza_37"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="37" />
+
+                    <Button
+                        android:id="@+id/geneza_38"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="38" />
+
+                    <Button
+                        android:id="@+id/geneza_39"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="39" />
+
+                    <Button
+                        android:id="@+id/geneza_40"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="40" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/geneza_41"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="41" />
+
+                    <Button
+                        android:id="@+id/geneza_42"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="42" />
+
+                    <Button
+                        android:id="@+id/geneza_43"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="43" />
+
+                    <Button
+                        android:id="@+id/geneza_44"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="44" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/geneza_45"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="45" />
+
+                    <Button
+                        android:id="@+id/geneza_46"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="46" />
+
+                    <Button
+                        android:id="@+id/geneza_47"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="47" />
+
+                    <Button
+                        android:id="@+id/geneza_48"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="48" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/geneza_49"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="49" />
+
+                    <Button
+                        android:id="@+id/geneza_50"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:text="50" />
+                </TableRow>
+
+            </TableLayout>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp">
+
+                <Button
+                    android:id="@+id/intrebari_geneza"
+                    android:layout_width="wrap_content"
+                    android:layout_height="59dp"
+                    android:backgroundTint="#8AAAE5"
+                    android:text="Întrebări GENEZA"
+                    android:textColor="#000000" />
+            </TableRow>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

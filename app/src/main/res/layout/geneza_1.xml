@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="177dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/geneza_cap_1"
+                    android:textColor="#000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Capitolul 1"
+                    android:textSize="30sp" />
+
+                <ImageButton
+                    android:id="@+id/gezena_1_audio_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    app:srcCompat="@android:drawable/ic_media_play"
+                    android:onClick="gezena_1_audio_play"/>
+
+                <ImageButton
+                    android:id="@+id/gezena_1_audio_pause"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@android:drawable/ic_media_pause"
+                    android:onClick="gezena_1_audio_pause"/>
+
+                <ImageButton
+                    android:id="@+id/gezena_1_audio_stop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@android:drawable/picture_frame"
+                    android:onClick="gezena_1_audio_stop"/>
+
+            </TableRow>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="1. La început, Dumnezeu a făcut cerurile şi pământul.\n
+2. Pământul era pustiu şi gol; peste faţa adâncului de ape era întuneric, şi Duhul lui Dumnezeu Se mişca pe deasupra apelor.\n
+3. Dumnezeu a zis: „Să fie lumină!” Şi a fost lumină.\n
+4. Dumnezeu a văzut că lumina era bună; şi Dumnezeu a despărţit lumina de întuneric.\n
+5. Dumnezeu a numit lumina zi, iar întunericul l-a numit noapte. Astfel, a fost o seară, şi apoi a fost o dimineaţă: aceasta a fost ziua întâi.\n
+6. Dumnezeu a zis: „Să fie o întindere între ape, şi ea să despartă apele de ape.”\n
+7. Şi Dumnezeu a făcut întinderea, şi ea a despărţit apele care sunt dedesubtul întinderii de apele care sunt deasupra întinderii. Şi aşa a fost.\n
+8. Dumnezeu a numit întinderea cer. Astfel, a fost o seară, şi apoi a fost o dimineaţă: aceasta a fost ziua a doua.\n
+9. Dumnezeu a zis: „Să se strângă la un loc apele care sunt dedesubtul cerului şi să se arate uscatul!” Şi aşa a fost.\n
+10. Dumnezeu a numit uscatul pământ, iar grămada de ape a numit-o mări. Dumnezeu a văzut că lucrul acesta era bun.\n
+11. Apoi Dumnezeu a zis: „Să dea pământul verdeaţă, iarbă cu sămânţă, pomi roditori, care să facă rod după soiul lor şi care să aibă în ei sămânţa lor pe pământ.” Şi aşa a fost.\n
+12. Pământul a dat verdeaţă, iarbă cu sămânţă după soiul ei şi pomi care fac rod şi care îşi au sămânţa în ei, după soiul lor. Dumnezeu a văzut că lucrul acesta era bun.\n
+13. Astfel, a fost o seară, şi apoi a fost o dimineaţă: aceasta a fost ziua a treia.\n
+14. Dumnezeu a zis: „Să fie nişte luminători în întinderea cerului, ca să despartă ziua de noapte; ei să fie nişte semne care să arate vremurile, zilele şi anii;\n
+15. şi să slujească de luminători în întinderea cerului, ca să lumineze pământul.” Şi aşa a fost.\n
+16. Dumnezeu a făcut cei doi mari luminători, şi anume: luminătorul cel mai mare ca să stăpânească ziua, şi luminătorul cel mai mic ca să stăpânească noaptea; a făcut şi stelele.\n
+17. Dumnezeu i-a aşezat în întinderea cerului ca să lumineze pământul,\n
+18. să stăpânească ziua şi noaptea şi să despartă lumina de întuneric. Dumnezeu a văzut că lucrul acesta era bun.\n
+19. Astfel, a fost o seară, şi apoi a fost o dimineaţă: aceasta a fost ziua a patra.\n
+20. Dumnezeu a zis: „Să mişune apele de vieţuitoare şi să zboare păsări deasupra pământului pe întinderea cerului.”\n
+21. Dumnezeu a făcut peştii cei mari şi toate vieţuitoarele care se mişcă şi de care mişună apele, după soiurile lor; a făcut şi orice pasăre înaripată după soiul ei. Dumnezeu a văzut că erau bune.\n
+22. Dumnezeu le-a binecuvântat şi a zis: „Creşteţi, înmulţiţi-vă şi umpleţi apele mărilor; să se înmulţească şi păsările pe pământ.”\n
+23. Astfel a fost o seară, şi apoi a fost o dimineaţă: aceasta a fost ziua a cincea.\n
+24. Dumnezeu a zis: „Să dea pământul vieţuitoare după soiul lor, vite, târâtoare şi fiare pământeşti, după soiul lor.” Şi aşa a fost.\n
+25. Dumnezeu a făcut fiarele pământului după soiul lor, vitele după soiul lor şi toate târâtoarele pământului după soiul lor. Dumnezeu a văzut că erau bune.\n
+26. Apoi Dumnezeu a zis: „Să facem om după chipul Nostru, după asemănarea Noastră; el să stăpânească peste peştii mării, peste păsările cerului, peste vite, peste tot pământul şi peste toate târâtoarele care se mişcă pe pământ.”\n
+27. Dumnezeu a făcut pe om după chipul Său, l-a făcut după chipul lui Dumnezeu; parte bărbătească şi parte femeiască i-a făcut.\n
+28. Dumnezeu i-a binecuvântat şi Dumnezeu le-a zis: „Creşteţi, înmulţiţi-vă, umpleţi pământul şi supuneţi-l; şi stăpâniţi peste peştii mării, peste păsările cerului şi peste orice vieţuitoare care se mişcă pe pământ.”\n
+29. Şi Dumnezeu a zis: „Iată că v-am dat orice iarbă care face sămânţă şi care este pe faţa întregului pământ şi orice pom care are în el rod cu sămânţă: aceasta să fie hrana voastră.\n
+30. Iar tuturor fiarelor pământului, tuturor păsărilor cerului şi tuturor vietăţilor care se mişcă pe pământ, care au în ele o suflare de viaţă, le-am dat ca hrană toată iarba verde.” Şi aşa a fost.\n
+31. Dumnezeu S-a uitat la tot ce făcuse; şi iată că erau foarte bune. Astfel, a fost o seară, şi apoi a fost o dimineaţă: aceasta a fost ziua a şasea.\n
+"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,824 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@android:style/Widget.TextView.SpinnerItem"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_marginTop="20dp"
+                android:text="Vechiul Testament"
+                android:textSize="30sp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/geneza"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="Geneza" />
+
+                    <Button
+                        android:id="@+id/Exodul"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="Exodul" />
+
+                    <Button
+                        android:id="@+id/Leviticul"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="Leviticul" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/Numeri"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="Numeri" />
+
+                    <Button
+                        android:id="@+id/Deuteronomul"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="19dp"
+                        android:paddingBottom="16dp"
+                        android:text="Deuteronomul"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:id="@+id/Iosua"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Iosua"
+                        android:padding="15dp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/Judecători"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Judecători"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Rut"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rut"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/samuel1"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1 Samuel"
+                        android:padding="15dp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/Samuel2"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2 Samuel"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Împărați1"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1 Împărați"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Împărați2"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2 Împărați"
+                        android:padding="15dp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+
+                    <Button
+                        android:id="@+id/Cronici1"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1 Cronici"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Cronici2"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2 Cronici"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Ezra"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ezra"
+                        android:padding="15dp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+
+                    <Button
+                        android:id="@+id/Neemia"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Neemia"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Estera"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Estera"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Iov"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Iov"
+                        android:padding="15dp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+
+                    <Button
+                        android:id="@+id/Psalmii"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Psalmii"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Proverbe"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Proverbe"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Eclesiastul"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="17dp"
+                        android:paddingBottom="16dp"
+                        android:text="Eclesiastul"
+                        android:textSize="12sp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+
+                    <Button
+                        android:id="@+id/Cântarea_Cântărilor"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="21dp"
+                        android:paddingBottom="17dp"
+                        android:text="Cântarea Cântărilor"
+                        android:textSize="8sp" />
+
+                    <Button
+                        android:id="@+id/Isaia"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Isaia"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Ieremia"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ieremia"
+                        android:padding="15dp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+
+                    <Button
+                        android:id="@+id/Plângeri"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="21dp"
+                        android:paddingBottom="17dp"
+                        android:text="Plangerile lui Ieremia"
+                        android:textSize="8sp" />
+
+                    <Button
+                        android:id="@+id/Ezechiel"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ezechiel"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Daniel"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Daniel"
+                        android:padding="15dp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+
+                    <Button
+                        android:id="@+id/Osea"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Osea"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Ioel"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ioel"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Amos"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Amos"
+                        android:padding="15dp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+
+                    <Button
+                        android:id="@+id/Obadia"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Obadia"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Iona"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Iona"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Mica"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mica"
+                        android:padding="15dp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+
+                    <Button
+                        android:id="@+id/Naum"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Naum"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Habacuc"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Habacuc"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Țefania"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Țefania"
+                        android:padding="15dp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+
+                    <Button
+                        android:id="@+id/Hagai"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hagai"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Zaharia"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Zaharia"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Maleahi"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Maleahi"
+                        android:padding="15dp"/>
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@android:style/Widget.TextView.SpinnerItem"
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:layout_marginTop="20dp"
+                android:text="Noul Testament"
+                android:textSize="30sp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/Matei"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Matei"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Marcu"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Marcu"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Luca"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Luca"
+                        android:padding="15dp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/Ioan"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ioan"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Fapte"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="21dp"
+                        android:paddingBottom="17dp"
+                        android:text="Faptele Apostolilor"
+                        android:textSize="8sp" />
+
+                    <Button
+                        android:id="@+id/Romani"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Romani"
+                        android:padding="15dp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/Corinteni1"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1 Corinteni"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Corinteni2"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2 Corinteni"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Galateni"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Galateni"
+                        android:padding="15dp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/Efeseni"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Efeseni"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Filipeni"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Filipeni"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Coloseni"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Coloseni"
+                        android:padding="15dp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+
+                    <Button
+                        android:id="@+id/Tesaloniceni1"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="17dp"
+                        android:text="1 Tesaloniceni"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:id="@+id/Tesaloniceni2"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="17dp"
+                        android:text="2 Tesaloniceni"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:id="@+id/Timotei1"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1 Timotei"
+                        android:padding="15dp"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <Button
+                        android:id="@+id/Timotei2"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2 Timotei"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Tit"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tit"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Filimon"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Filimon"
+                        android:padding="15dp"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+
+                    <Button
+                        android:id="@+id/Evrei"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Evrei"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Iacov"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Iacov"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Petru1"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1 Petru"
+                        android:padding="15dp"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+
+                    <Button
+                        android:id="@+id/Petru2"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2 Petru"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Ioan1"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1 Ioan"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Ioan2"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2 Ioan"
+                        android:padding="15dp"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+
+                    <Button
+                        android:id="@+id/Ioan3"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3 Ioan"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Iuda"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Iuda"
+                        android:padding="15dp"/>
+
+                    <Button
+                        android:id="@+id/Apocalipsa"
+                        android:backgroundTint="#8AAAE5"
+                        android:textColor="#000000"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Apocalipsa"
+                        android:padding="15dp"/>
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
